@@ -44,8 +44,8 @@ export class SignupComponent extends Component {
         <div>
           <form onSubmit={this.handleSubmit}>
             <Input
-              addonAfter="@google.com"
-              type="email"
+              //addonAfter="@google.com"
+              type="text"
               name="email"
               onChange={this.handleChange}
               placeholder="Enter your username"

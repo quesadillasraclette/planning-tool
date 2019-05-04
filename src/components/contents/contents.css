@@ -1,0 +1,55 @@
+/* Content List */
+/* Content Details */
+.content-detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-detail article {
+  padding: 5%;
+}
+
+.content-detail article:nth-child(1) {
+  width: 30%;
+}
+.content-detail article:nth-child(2) {
+  width: 70%;
+}
+/* Content Form */
+
+/* Content Card */
+
+.content-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.content-card .card-phone {
+  width: 400px;
+  height: 600px;
+  background-image: url("https://www.searchpng.com/wp-content/uploads/2018/12/Google-Pixel-3-XL-715x1090.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5% 3%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-phone img {
+  width: 260px;
+  height: 160px;
+}
+
+.card-phone span {
+  background-color: lightgrey;
+  width: 260px;
+  height: 50px;
+}
